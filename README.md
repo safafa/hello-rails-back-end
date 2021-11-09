@@ -1,24 +1,56 @@
-# README
+# Hello rails project
+Rails api renders random greetings.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Built with
 
-* Ruby version
+    Ruby on Rails
+## Getting Started
 
-* System dependencies
+To get a local copy up and run the app, follow these simple example steps.
 
-* Configuration
+### Prerequisites
 
-* Database creation
+    Ruby 
+    Rails 
+    Postgres 
 
-* Database initialization
+### Setup
 
-* How to run the test suite
+In your terminal clone the repo.
+To install all dependencies, run:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+  bundle install
+```
 
-* Deployment instructions
+Create database and Messages table
+```
+  rails db:create
+  rails db:migrate
+  rails db:seed
+```
+To start the server run:
 
-* ...
+```
+  rails s
+```
+
+## Author
+
+ 👤 **Safa Aballagh**
+
+- GitHub: [@Safafa](https://github.com/safafa)
+- Twitter: [@safa aballagh](https://twitter.com/Aballagh_S)
+- LinkedIn: [Aballagh Safa](https://www.linkedin.com/in/aballaghsafa/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
