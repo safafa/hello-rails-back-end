@@ -1,6 +1,9 @@
 # Hello rails project
 Rails api renders random greetings.
 
+# Front end application 
+
+[Hello rails front end](https://github.com/safafa/hello-rails-front-end) 
 
 ## Built with
 
@@ -33,7 +36,7 @@ Create database and Messages table
 To start the server run:
 
 ```
-  rails s
+  rails s -p 3001
 ```
 
 ## Author
